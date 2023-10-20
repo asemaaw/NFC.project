@@ -1,0 +1,17 @@
+@media (max-width: 767.99) {
+    .header__container{
+        flex-direction: column;
+    }
+    .hero__title{
+        font-size: 70px;
+        line-height: 84px;
+
+    }
+    .grid{
+        grid-template-columns: auto;
+        row-gap: 40px;
+    }
+    :root{
+        --offset: 60px;
+    }
+}
